@@ -36,8 +36,8 @@ def opcao():
             finalizar = 'Até maaais veeeerrr'
         finally:
             print(finalizar)
-
-   
-
-
-
+    else:
+        from time import sleep
+        print(f'Opção {number} não existe no Menu.')
+        sleep(1)
+        opcao()
